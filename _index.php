@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CoLiberate</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body class="bg-yellow">
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">CoLiberate</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="swipe.html">Swipe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div style="background-color: #1b1b1b; text-align: center;" class="col-md-12">
+        <img src="img/header.jpg" class="img-fluid" alt="">
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item slide-1 active" style="background-image: url('img/sliders/slide-1.jpg')">
+            <div class="carousel-caption black d-md-block">
+              <div class="col-9 col-md-6 float-right">
+                <h2 class="mb-4">Introducing Swipe</h2>
+                <p class="mb-4">Hardware implementation of space/tool access and microcredential control. Effectively manage access to your spaces and tools.</p>
+                <a href="swipe.html" class="btn col-md-6 mx-auto btn-block btn-lg btn-warning">Get swipe</a>
+              </div>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item slide-2" style="background-image: url('img/sliders/slide-2.jpg')">
+            <div class="carousel-caption d-md-block">
+              <div class="col-8 col-md-6 float-left">
+                <h2>Safety<br> Efficiency<br> Analytics</h2>
+                <a href="swipe.html" class="btn col-md-6 float-left btn-block btn-lg btn-warning">Get swipe</a>
+              </div>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item slide-3" style="background-image: url('img/sliders/slide-3.jpg')">
+            <div class="carousel-caption d-md-block">
+                <div class="col-8 col-md-6 float-right">
+                  <h2 class="text-left">Features:</h2>
+                  <ul class="text-left">
+                    <li>Secure access verification</li>
+                    <li>Bulk add users and permissions</li>
+                    <li>Tool power on/off</li>
+                    <li>Data capture exported as CSV</li>
+                    <li>Advanced machine start/stop (e.g. CNC mills, lathes)</li>
+                    <li>Easily manage users and permissions</li>
+                    <li>Monitor current usage and history</li>
+                  </ul>
+                  <a href="swipe.html" class="btn col-md-6 mx-auto btn-block btn-lg btn-warning">Get swipe</a>
+                </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters bg-yellow mb-5">
+
+          <div class="col-lg-8 order-lg-1 text-white mx-auto" style="background-image: url('img/how-we-are.jpg');background-size:cover; min-height: 17rem;"></div>
+          <div class="col-lg-12 order-lg-2 my-auto showcase-text text-center">
+            <div class="col-lg-8 mx-auto"> 
+              <h2>Who we are</h2>
+              <p class="lead mb-2">Alex Gaudio, Mohamed Haroun, Salah Chafik, Yang Hu.</p>
+              <p class="lead mb-2">
+              We are a team dedicated to commons-based peer production. We want groups and individuals to adopt and adapt technologies that respect and support the traditions, customs, and priorities present in their particular community/society.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters bg-yellow">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/2.jpg'); background-position: center center;"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text text-center">
+            <h2>Our history</h2>
+            <p class="lead mb-2">Mohamed manages Columbia Makerspace, which is community run by volunteers know as Superusers. Although this model has been successful for promoting a burgeoning community of student makers at Columbia, opening up to the public is impossible due to university regulations.</p>
+
+            <p class="lead mb-2">As we believe making should not be restriced to well funded private spaces, we were determined to bring the success of a community led makerspace to a wider audience, and NYC Makerspace was the result.</p>
+
+            <p class="lead mb-2">We teamed up with the NYC Department of Parks and Recreation to create a system of makerspaces that serve as a foundation for social, scientific, technological, and artistic innovation that originates in the local neighborhood.</p>
+
+            <p class="lead mb-2">We’ve found that space and tool access control is an issue for not just Columbia and NYC makerspace but a universal issue for many labs, fabrication locations, and co-working spaces. Therefore, we built coLiberate swipe.</p>
+          </div>
+        </div>
+        <div class="row no-gutters bg-yellow">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/3.jpg'); background-position: center center;"></div>
+          <div class="col-lg-6 my-auto showcase-text text-center">
+            <h2>Our future</h2>
+            <p class="lead mb-2">Through NYC Makerspace, our team has trained local high school and alternative to incarceration students in programing, design, and fabrication skills. Our goal is to employee interested students that have completed this program for the production and assembly of CoLiberate Swipe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <section class="connect-network text-white text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          	<div class="mb-4 col-md-6 float-right text-right">
+            	<h2>Connect with a<br> distributed network of<br> students, professionals,<br> makers, and hubs</h2>
+            	<button type="submit" data-toggle="modal" data-target="#popup" data-whatever="@connect" class="btn col-md-6 mr-5 float-right btn-block btn-lg btn-warning">Get notified</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="keep-track text-white text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          	<div class="mb-4 col-md-6 text-left">
+            	<h2>Keep track of <br>your resources, <br>tools, and space</h2>
+            	<button type="submit" data-toggle="modal" data-target="#popup" data-whatever="@keep" class="btn col-md-6 ml-4 btn-block btn-lg btn-warning">Get notified</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="success"></div>
+    <div class="modal fade" id="popup">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        	<div class="modal-body">
+				<form class="form-inline" name="insertInfos" id="insertForm" action="insert.php" method="post">
+				  <div class="form-group col-5 pr-1 pl-0">
+				    <input type="text" class="form-control col-12" id="email" name="email" placeholder="Email adresse"  required data-validation-required-message="Please enter your email.">
+				  </div>
+				  <div class="form-group col-5 pr-1 pl-1">
+				    <select class="form-control col-12" id="country" name="country">
+				      <option value="Morocco">Morocco</option>
+				      <option>USA</option>
+				      <option>Frensh</option>
+				      <option>Italy</option>
+				      <option>China</option>
+				    </select>
+				  </div>
+				  <div class="invisible">
+				    <input type="hidden" class="form-control" id="nameType" name="nameType">
+				  </div>
+				  <div class="col-2 pr-0 pl-1">
+				    <button type="submit" class="btn btn-dark" id="insertButton">Submit</button>
+				  </div>
+				</form>
+			</div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <footer class="py-5 bg-black">
+      <div class="container">
+        <p class="m-0 text-center text-white">local fabrication, global collaboration.</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $('#popup').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget) // Button that triggered the modal
+        var recipient = button.data('whatever') // Extract info from data-* attributes
+        // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+        // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+        var modal = $(this)
+        modal.find('.modal-body input#nameType').val(recipient)
+      })
+
+      $("body").on("hidden.bs.modal", ".modal", function () {
+	      $(this).removeData("bs.modal");
+	  });
+    </script>
+<?php
+if(!empty($_GET['p']) && $_GET['p'] == 'ok') {
+?>
+<script>alert('ok');</script>
+<?php
+}
+?>
+}
+
+  </body>
+
+</html>
